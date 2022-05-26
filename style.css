@@ -3,7 +3,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -70,6 +69,7 @@ button{
 
 .main-content{
     padding-left: 2%;
+    padding-right: 2%;
     background-color: #E2E8F0;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -95,5 +95,18 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(350px , 1fr));
     grid-template-rows: repeat(3, 1fr);
-    gap: 10%;
+    gap: 3%;
+}
+
+.content-card{
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    border-left: 5px solid #F0B429;
+}
+
+.cards , .trending-cards{
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
 }
