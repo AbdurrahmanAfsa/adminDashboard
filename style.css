@@ -71,3 +71,8 @@ button{
     grid-column: 2/3;
     grid-row: 2/3;
 }
+
+.content-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 2fr));
+}
